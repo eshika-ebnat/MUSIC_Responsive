@@ -1,0 +1,425 @@
+/*Google Font*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+}
+a{
+	text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6, p, ul{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: url(../image/background.png) center no-repeat;
+	background-size: cover;
+}
+b{
+	color: #2a5ea4 ;
+}
+/*Header-section Start*/
+header{
+	min-height: 100vh;
+}
+.container-fluid{
+	padding: 20px 10px;
+}
+.navbar-toggler-i{
+   color: #2a5ea4;
+   font-size: 35px;
+}
+.navbar-toggler{
+	border: none;
+}
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+.nav-item{
+	font-size: 18px;
+	font-weight: 500;
+	color:#2a5ea4 ;
+}
+.nav-item .nav-link .active .fa-solid{
+	font-size: 18px;
+	font-weight: 500;
+	color:#2a5ea4 ;
+	
+}
+.nav-item .nav-link .fa-solid{
+	padding: 10px;
+	
+}
+.navbar-nav .nav-link.active{
+	color:#2a5ea4 ;
+}
+.offcanvas-body{
+    background-image: linear-gradient(to bottom, white, rgb(10,38,65));
+}
+.offcanvas-title {
+    font-size: 27px;
+}
+.offcanvas-body h2{
+	font-size: 24px;
+	font-weight: 700;
+	margin: 15px 0px;
+	color: #061425;
+}
+.btn-download{
+	display: inline-block;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    border: 1px solid #2a5ea4;
+    border-radius: 18px;
+    padding: 5px 10px;
+    background: none;
+    margin: 10px 0px;
+}
+.btn-download:hover{
+	color: #fff;
+	background-color: #2a5ea4 ;
+	border-color: #2a5ea4 ;
+}
+
+.height{
+    text-align: center;
+    padding: 60px;
+    position: relative;
+    justify-content: space-evenly;
+    margin-top: 60px;
+}
+.height h2{
+	font-size: 36px;
+	font-weight: 600;
+	color: white;
+	padding: 20px;
+}
+.height h2 b{
+	font-size: 36px;
+	font-weight: 600;
+	color: #2a5ea4 ;
+	padding: 10px;
+}
+.height p{
+	font-size: 20px;
+	font-weight: 500;
+	color: #2a5ea4 ;
+	padding: 10px;
+}
+.btn-download-body{
+	display: inline-block;
+	color: #fff;
+	font-size: 16px;
+	font-weight: 600;
+	border: 1px solid #2a5ea4;
+	border-radius: 18px;
+	padding: 5px 10px;
+	background: none;
+	/* margin: 10px 0px; */
+	width: 20%;
+	margin: 70px;
+}
+.btn-download-body:hover{
+	color: #fff;
+	background-color: #2a5ea4 ;
+	border-color: #2a5ea4 ;
+}
+
+/*Music Section*/
+.music-section{
+	padding: 60px;
+	position: relative;
+}
+
+.music-section .beat{
+	position: absolute;
+    z-index: -1;
+    right: 0;
+    top: 20%;
+}
+.height2 .first-img{
+    width: 90%;
+
+}
+.height2 .last-img{
+    width: 90%;
+}
+
+
+/*About-Section*/
+.about-section{
+	position: relative;
+	padding: 60px;
+}
+.about-section .row-revers{
+
+}
+.about-headphone{
+
+}
+.about-power{
+
+}
+.about-section .headphone{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 46%;
+}
+.about-section h2{
+
+	font-size: 36px;
+
+	font-weight: 500;
+
+	color: white;
+
+	padding: 31px;
+}
+.about-section p{
+	
+	font-size: 16px;
+		
+	padding: 10px 30px;
+		
+	color: #66778e;
+}
+.about-section .btn-download-body-2{
+	display: inline-block;
+	color: #fff;
+	font-size: 16px;
+	font-weight: 600;
+	border: 1px solid #2a5ea4;
+	border-radius: 18px;
+	padding: 5px 10px;
+	background: none;
+	width: 20%;
+	margin: 20px 30px;
+}
+.btn-download-body-2:hover{
+	color: #fff;
+	background-color: #2a5ea4 ;
+	border-color: #2a5ea4 
+}
+
+
+/*Feature Section*/
+.feature-section{
+	padding: 60px;
+	position: relative;
+
+}
+.heading{
+    padding: 60px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around
+}
+.heading h2{
+	font-size: 40px;
+	font-weight: 500;
+	color: white;
+	margin: 30px auto;
+}
+.feature-box{
+	padding: 20px;
+	margin: 20px;
+}
+.feature-box .fa-solid{
+	font-size: 30px;
+	color: #ff3334;
+	padding: 15px 0px;
+}
+.feature-box h4{
+	font-size: 23px;
+	color: white;
+	padding: 5px 0px;
+}
+.feature-box p{
+	
+font-size: 15px;
+	
+color: #4e6078;
+	
+padding: 5px 0px;
+}
+.phone{
+
+}
+.feature-phone{
+	position: absolute;
+    top: 7%;
+    right: 25%;
+    width: 46%;
+
+}
+
+
+/*Perspective Section*/
+.pers-section{
+	padding: 200px 70px;
+	position: relative;
+}
+.pers-section-margin{
+	margin: 90px 0px;
+}
+.pers-section .fa-solid{
+	font-size: 35px;
+	color: #ff3334;
+	padding: 30px 20px;
+}
+.pers-section h4{
+	font-size: 30px;
+	color: white;
+	padding: 5px 20px;
+}
+.pers-section p{
+	font-size: 15px;	
+	color: #4e6078;
+	padding: 30px 20px;
+}
+.pers-section .graphic{
+	position: absolute;
+    right: 0;
+    width: 50%;
+    top: 23%;
+}
+.pers-row{
+
+}
+
+
+
+/*Opinion Section*/
+.opinion-section{
+	background: url(../image/opinion-layer.png) center no-repeat;
+	background-size: cover;
+	text-align: center;
+	padding: 60px;
+	display: flex;
+
+}
+.opinion-heading{
+
+}
+.clients-detail h5{
+	
+}
+.clients-detail p{
+	color: #5e6e84;
+	font-size: 18px;
+	padding: 60px 250px 40px 250px;
+}
+.client-image{
+	width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+    margin: 20px 5px -10px 0px;
+}
+.clients-detail .name-job{
+	display: inline;
+}
+.clients-detail .name-job h5{
+	color: #5e6e84;
+	font-size: 14px;
+	padding: 20px 2px;
+	display: inline;
+}
+.owl-dots{
+	text-align: center;
+	justify-content: center;
+	display: flex;
+}
+.owl-dots .owl-dot span{
+	width: 3px;
+	height: 3px;
+	border-radius: 50px;
+	border: 1px solid #335a95;
+	margin: 50px 3px 20px 3px;
+	padding: 3px;
+	display: block;
+}
+
+.owl-dots .active span{
+	width: 3px;
+    height: 3px;
+    background-color: #335a95;
+    margin: 50px 3px 20px 3px;
+    padding: 3px;
+    border-radius: 50px;
+    display: block;
+
+}
+
+
+
+/*Download Section Start*/
+.download-section{
+	padding: 60px;
+}
+.download-section h2{
+	font-size: 30px;
+	font-weight: 500;
+	color: white;
+	margin: 20px auto;
+}
+.download-section p{
+	font-size: 15px;
+	font-weight: 500;
+	color: #5e6e84;
+	margin: 30px auto;
+	padding:  0px 20px;
+}
+.download-section .download-phone{
+	text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.download-section .phone-image{
+	width: 70%;
+    padding: 30px;
+    padding-right: 80px;
+}
+.download-button-heading{
+	text-align: center;
+	display: flex;
+    justify-content: center;
+}
+
+
+/*Footer Section Start*/
+.footer-line{
+	width: auto;
+	height: 1px;
+	background-color: #0d1525;
+}
+.footer .nav-link{
+	color: #2a5ea4;
+	font-size: 13px;
+	font-weight: 500;
+	padding: 5px 10px;
+	transition: 0.3s all ease-in-out;;
+
+}
+.footer .nav-link:hover{
+	color: #fff;
+	font-size: 15px;
+}
+.footer .copyright{
+
+}
+.footer .copyright p {
+	font-size: 13px;
+    color: #2a5ea4;
+    font-weight: 500;
+    padding: 5px 10px;
+}
+.footer .container-fluid {
+    justify-content: space-between;
+    align-items: flex-start;
+}

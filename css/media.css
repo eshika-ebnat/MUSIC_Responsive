@@ -1,0 +1,301 @@
+@media(min-width:1920px){
+	.feature-phone {
+	    top: 14%;
+	    right: 34%;
+	    width: 35%;
+	}
+	.pers-section .graphic {
+	    position: absolute;
+	    right: 0;
+	    width: 38%;
+	    top: 1%;
+	}
+	.about-section .headphone {
+	    width: 42%;
+	}
+	.download-section p {
+	    padding: 0px 254px;
+	}
+}
+
+
+
+
+
+
+@media((min-width:1201px) and (max-width:1440px)){
+	.feature-phone {
+	    position: absolute;
+	    top: 20%;
+	    right: 28%;
+	    width: 46%;
+	}
+	.pers-section{
+		padding: 100px 70px;
+	}
+	.pers-section .graphic {
+	    position: absolute;
+	    right: 0;
+	    width: 50%;
+	    top: 15%;
+	}
+	.download-section p {
+	    padding: 0px 200px;
+	}
+}
+
+@media((min-width:768px)and (max-width:1200px)){
+	.btn-download-body{
+		width: 30%;
+	}
+	.btn-download-body-2{
+		width: 30%;
+	}
+	.about-section .btn-download-body-2 {
+		width: 30%;
+		margin-left: 20px 10px;
+	}
+	.heading{
+		padding: 30px;
+	}
+	.feature-phone {
+	    position: absolute;
+	    top: 32%;
+	    right: 28%;
+	    width: 46%;
+	}
+	.feature-box {
+	    padding: 10px;
+	    margin: 10px;
+	}
+	.pers-section {
+	    padding: 70px;
+	    position: relative;
+	}
+	.pers-section .graphic {
+	    position: absolute;
+	    right: 0;
+	    width: 50%;
+	    top: 15%;
+	}
+	.download-section .phone-image {
+	    width: 90%;
+	    padding: 30px;
+	    padding-right: 80px;
+}
+	.clients-detail p {
+	    padding: 60px;
+	}
+}
+
+@media(max-width:768px){
+	.btn-download-body{
+		width: 37%;
+	}
+	.btn-download-body-2{
+		width: 32%;
+	}
+	.about-section .btn-download-body-2 {
+		width: 46%;
+		margin-left: 20px 10px;
+	}
+	.about-section {
+	    position: relative;
+	    padding: 40px; 
+	}
+	.about-section h2 {
+	    padding: 20px 10px; 
+	}
+	.about-section p {
+	    padding: 30px 10px; 
+	}
+	.about-section .headphone {
+	    top: 20px;
+	    width: 46%;
+	}
+	.heading {
+	    padding: 22px 40px;
+	}
+	.feature-section {
+    	padding: 40px;
+    }
+    .feature-box {
+    padding: 5px;
+    margin:60px 5px;
+	}
+	.feature-phone {
+    position: absolute;
+    top: 21%;
+    right: 26%;
+    width: 50%;
+    }
+    .pers-section {
+	     padding: 20px;
+	    position: relative;
+	}
+	.pers-section-margin {
+	    margin: 30px 0px;
+	}
+	.pers-section .graphic {
+	    position: absolute;
+	    right: 0;
+	    width: 50%;
+	    top: -1%;
+	}
+	.clients-detail p {
+	    color: #5e6e84;
+	    font-size: 18px;
+	    padding: 50px;
+	}
+	.download-section .phone-image {
+	     width: 100%; 
+	    padding: 30px;
+	    padding-right: 62px;
+	}
+ 
+}
+
+
+
+
+
+
+
+
+
+@media(max-width:576px){
+	.btn-download-body{
+		width: 70%;
+	}
+	.music-section{
+		padding: 0;
+	}
+	.music-section .beat {
+	    top: 50%;
+	}
+	.height2 .first-img{
+    width: 100%;
+
+	}
+	.height2 .last-img{
+	    width: 100%;
+	}
+	.about-section .row-revers {
+	    display: flex;
+	    flex-direction: column-reverse;
+	}
+	.about-section {
+	    position: relative;
+	     padding: 0px; 
+	}
+	.about-headphone {
+	    padding: 10px 0px 10px 20px;
+}
+	.about-section h2 {
+	    padding: 30px 10px;
+	}
+	.about-section p {
+	    padding: 20px 10px;
+	}
+	.about-power{
+		padding: 10px;
+	}
+	.about-section .headphone {
+	    position: static;
+	    left: 0;
+	    top: 0;
+	     width: 90%;
+}
+	.about-section .btn-download-body-2 {
+		width: 46%;
+		margin: 20px 30px 20px 10px;
+	}
+	.feature-section{
+		padding: 30px 10px;
+	}
+	.feature-phone {
+	    position: static;
+	     width: 100%; 
+	}
+	.feature-box {
+	    padding: 5px;
+	    margin: 10px;
+	}
+
+
+	.pers-section {
+	     padding: 0px; 
+	}
+	.pers-row{
+		display: flex;
+		flex-direction: column-reverse;
+	}
+	.pers-section .graphic {
+	    position: static;
+	    right: 0;
+	    width: 100%; 
+	    top: 26%;
+	}
+	.opinion-section{
+		padding: 30px;
+	}
+	.clients-detail p {
+	     padding: 10px; 
+	}
+	.download-section{
+		padding: 10px;
+	}
+	.heading {
+	    padding: 15px;
+	    text-align: center;
+	}
+	.btn-download-body-2{
+		width: 32%;
+	}
+	.download-section .phone-image {
+	     width: 100%;
+	     padding: 0px; 
+	     padding-right: 0px; 
+	}
+	.footer .copyright{
+	    display: flex;
+	    justify-content: center;
+	    align-items: center;
+	    padding: 20px;
+	}
+	.footer .copyright p {
+	font-size: 11px;
+	}
+	.footer .container-fluid{
+		justify-content: space-between;
+		align-items: center;
+	}
+}
+
+@media(max-width:376px){
+	.footer .copyright{
+	    padding: 0px;
+	}
+	.footer .copyright p {
+	font-size: 9px;
+	}
+	.music-section{
+		padding: 0;
+	}
+}
+
+
+
+
+@media(max-width:320px){
+	.height{
+		padding: 0px;
+	}
+	.clients-detail .name-job h5{
+		display: block;
+	}
+	.music-section{
+		padding: 0;
+	}
+	
+}
